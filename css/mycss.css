@@ -5,11 +5,11 @@
 }
 
 .onhours {
-    text-color: green;
+    color: green;
 }
 
 .offhours {
-    text-color: red;
+    color: red;
 }
 
 .hidden {
