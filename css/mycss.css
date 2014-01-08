@@ -3,3 +3,15 @@
     -webkit-box-shadow: 0 0 5px #888;
     box-shadow: 0 0 5px #888;
 }
+
+.onhours {
+    text-color: green;
+}
+
+.offhours {
+    text-color: red;
+}
+
+.hidden {
+    display: none;
+}
