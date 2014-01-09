@@ -19,7 +19,7 @@
             <section class="top-bar-section">
                 <ul class="left">
                     <li class="has-dropdown show-for-small">
-                        <a href="Comp20TA">Meet Your TAs</a>
+                        <a href="#">Meet Your TAs</a>
                         <ul class="dropdown">
                             <li><a href="#tyler">Tyler Lubeck</a></li>
                             <li><a href="#andrew">Andrew Dempsey</a></li>
@@ -40,8 +40,7 @@
 
         <div class="row">
            <div class="large-3 columns text-center" id="tyler">
-               <!-- <img src="http://placehold.it/400x300&text=[headshot]" />-->
-                <img src="/Comp20TA/img/tyler_headshot.jpg" alt="The one that isn't Batman"/> 
+                <img src="img/tyler_headshot.jpg" alt="The one that isn't Batman"/> 
                 <h4>Tyler Lubeck</h4>
                 <blockquote>
                     <p>It&#39;s not a bug &#8722; it&#39;s an undocumented feature.</p>
@@ -82,7 +81,7 @@
             </div>
             
             <div class="large-3 columns text-center" id="connor">
-                <img src="/Comp20TA/img/connor_headshot.jpg" alt="The one that isn't Batman"/> 
+                <img src="img/connor_headshot.jpg" alt="The one that isn't Batman"/> 
                 <h4>Connor Taylor</h4>
                 <blockquote>
                     <p>We should take computer science majors and have them write codes for Congress. The printouts would be more understandable to the layperson.</p>
@@ -97,6 +96,8 @@
 
                 <h5>Fun Fact</h5>
                 <p id="canada">Secretly (but actually) a Canadian Citizen</p>
+                <img src="img/flag.gif" id="flag">
+                <audio src="audio/canada.mp3" preload="auto" id="canadaSong">
             </div>
             
         </div>
@@ -107,5 +108,7 @@
             $(document).foundation();
             $('a[href^="http://"]').not('a[href*=gusdecool]').attr('target','_blank');
         </script>
+        <script src="js/fun.js"></script>
+
     </body>
 </html>
