@@ -98,6 +98,7 @@
         <script src="js/foundation.min.js"></script>
         <script>
             $(document).foundation();
+            $('a[href^="http://"]').not('a[href*=gusdecool]').attr('target','_blank');
         </script>
     </body>
 </html>
