@@ -9,3 +9,7 @@ function canadia() {
         song.pause();
     });
 }
+
+$(function() {
+    canadia();
+});
