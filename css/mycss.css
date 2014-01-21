@@ -10,6 +10,11 @@
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
+.circular img {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
 .dropshadow {
     -moz-box-shadow: 0 0 5px #888;
     -webkit-box-shadow: 0 0 5px #888;
